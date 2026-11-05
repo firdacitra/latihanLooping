@@ -7,10 +7,10 @@ menghitung nilai siswa sejumlah 5 siswa, dihitung nilai rata rata nya
 '''
 totalNilai = 0
 print("======== MENGHITUNG NILAI RATA-RATA MAHASISWA ==========")
-for i in range(5):
+for i in range(10):
     nilai_mhs = int(input(f"Masukkan nilai ke-{i + 1}: "))
     totalNilai = totalNilai + nilai_mhs
-    rataRata = totalNilai/5
+    rataRata = totalNilai/10
 print(rataRata)
 
 
